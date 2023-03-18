@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 500px;
+}
+.place{
+    width: 40%;
+    height: 400px;
+   
+    display: flex;
+    flex-wrap:wrap ;
+}
+:root{
+    --winning-blocks:#2d414b;
+}
+.polje{
+    width: 33%;
+    height: 34%;
+    border: 10px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: rgb(20, 200, 227);
+}
+.gornjiflex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient( #06beb6, #48b1bf);
+}
+.divzabtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient( #06beb6, #48b1bf);
+}
+.divzapolja{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://thumbs.dreamstime.com/z/tic-tac-toe-pattern-blue-background-chaotic-sample-74834641.jpg");
+}
+h1{
+    text-transform:uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+.btn{
+    padding: 20px;
+    border-radius: 20%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.body{
+    background-image: url("https://thumbs.dreamstime.com/z/tic-tac-toe-pattern-blue-background-chaotic-sample-74834641.jpg")
+}
